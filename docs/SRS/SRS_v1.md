@@ -18,6 +18,7 @@ La aplicación permitirá a los usuarios reportar incidentes y a los técnicos g
 | **REQ-04** | **Gestión de Usuarios** | El sistema debe permitir el registro y mantenimiento de usuarios con atributos como `Nombre`, `CorreoElectronico` y `Rol`. |
 | **REQ-05** | **Comentarios de Seguimiento** | El sistema debe permitir que tanto el cliente como el técnico agreguen objetos `Comentario` asociados a un ticket. |
 | **REQ-06** | **Consulta de Historial** | El sistema debe exponer un endpoint para listar todos los tickets creados por un usuario específico. |
+| **REQ-07** | **Notificaciones Automáticas** | El sistema debe disparar un aviso automático al correo del cliente cuando el estado de su ticket cambie a "Resuelto". |
 
 ---
 
